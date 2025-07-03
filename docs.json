@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Foundry Docs",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#0078d4",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "dark": "logo/foundry-icon.png",
+    "light": "logo/foundry-icon.png"
+  },
   "navigation": {
     "tabs": [
       {
@@ -18,18 +21,19 @@
             "pages": [
               "index",
               "quickstart",
+              "changelog",
               "development"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Core Concepts",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "core-concepts/markdown",
+              "core-concepts/code",
+              "core-concepts/images",
+              "core-concepts/settings",
+              "core-concepts/navigation",
+              "core-concepts/reusable-snippets"
             ]
           }
         ]
@@ -59,25 +63,25 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "href": "https://ai.azure.com/docs",
+          "icon": "code"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://aka.ms/foundry-devs",
+          "icon": "users"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "href": "https://devblogs.microsoft.com/foundry",
+          "icon": "pencil"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/foundry-icon.png",
+    "dark": "/logo/foundry-icon.png"
   },
   "navbar": {
     "links": [
@@ -94,9 +98,15 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/aifoundrydevs",
+      "github": "https://github.com/azure-ai-foundry"
     }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt"
+    ]
   }
 }
